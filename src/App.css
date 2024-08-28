@@ -1,14 +1,18 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
   text-align: center;
   font-family: 'Arial', sans-serif;
 }
 .App{
+  height: 98vh;
   background-color: #333;
-  height: 80vh;
 }
+
+/* .board{
+  padding: 0px 50px;
+} */
 
 h1 {
   font-size: 3rem;
@@ -22,15 +26,14 @@ h1 {
   color: aqua;
   font-size: 40px;
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   font-weight: bold;
   line-height: 100px;
   transition: background 0.3s ease, transform 0.3s ease;
   cursor: pointer;
   margin: 2px;
   float: left;
-  padding: 0;
 }
 
 .square:hover {
