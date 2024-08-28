@@ -75,7 +75,7 @@ function Board(){
     status = "It's a draw!";
   }
   return(
-    <div className='board'>
+    <>
       <div className='status'>{status}</div>
       <div className='board-row'>
         <Square value={squares[0]} onSquareClick={()=>handleClick(0)}/>
@@ -101,7 +101,7 @@ function Board(){
         setSquares(Array(9).fill(null));
         setXisNext(true);
         }}>Reset</button>
-    </div>
+    </>
   )
 }
 
